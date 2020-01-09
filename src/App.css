@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css?family=Arima+Madurai|Athiti|Bad+Script|Cinzel|Cutive+Mono|Darker+Grotesque|Geo|IBM+Plex+Mono|Julius+Sans+One|Jura|Megrim|News+Cycle|Overlock+SC|Poiret+One|Rock+Salt|Turret+Road|Ubuntu+Mono|VT323&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* 
+font-family: 'Cinzel', serif;
+font-family: 'News Cycle', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'IBM Plex Mono', monospace; -- yes
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Ubuntu Mono', monospace; -- yes
+font-family: 'Jura', sans-serif; -- yes
+font-family: 'Arima Madurai', cursive;
+font-family: 'VT323', monospace; -- too much pixel
+font-family: 'Turret Road', cursive;
+font-family: 'Cutive Mono', monospace; -- typewriter, it's ok
+font-family: 'Athiti', sans-serif;
+font-family: 'Overlock SC', cursive;
+font-family: 'Megrim', cursive;
+font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Geo', sans-serif; */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'IBM Plex Mono', monospace;
 }
