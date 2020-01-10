@@ -1,6 +1,16 @@
-.portfolio-container {
+/* .portfolio-container {
     width: 33.3%;
     background: #287e9e;
     height: 100vh;
     display: inline-block;
+} */
+.portfolio-container {
+    margin: 6rem 10% 0 10%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+
+.portfolio-header {
+    margin: 6rem 20% 0 20%;
 }

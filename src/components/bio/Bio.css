@@ -1,6 +1,23 @@
-.bio-container {
+/* .bio-container {
     width: 33.3%;
     background: #b13a1a;
     height: 100vh;
     display: inline-block;
+} */
+.bio-container {
+    margin: 3rem 25% 0 25%;
+    /* height: 100vh */
+}
+
+.bio-button-holder {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.bio-button-container {
+    width: 17rem;
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: 2.3rem;
 }

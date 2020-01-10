@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid rgb(212, 212, 212);
+  border-bottom: 1px solid rgb(231, 231, 231);
   padding: 5px 0;
   position: fixed;
   top: 0;
@@ -22,8 +22,14 @@
 
 .nav-name {
   padding-left: 15px;
+  text-transform: uppercase;
 }
 
 .nav-home-image {
-    height: 34px;
+    width: 35px;
+    padding-top: 5px;
+}
+
+.nav-icon-padding {
+    padding-right: 8px
 }
