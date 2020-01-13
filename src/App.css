@@ -24,3 +24,7 @@ body {
   padding: 0;
   font-family: 'IBM Plex Mono', monospace;
 }
+
+.margins {
+  margin: 0 20% 5% 20%;
+}

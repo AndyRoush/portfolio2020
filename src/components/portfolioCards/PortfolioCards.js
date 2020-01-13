@@ -22,23 +22,30 @@ const PortfolioCards = props => {
             <span>{props.desc}</span>
           </p>
           <p className="cards-font-size">
-            <a
-              href={props.liveLink}
-              className="cards-live-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              live link
-            </a>
-            <span>|</span>
-            <a
-              href={props.ghLink}
-              className="cards-gh-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Github Link
-            </a>
+            {props.liveLink != null ? (
+              <a
+                href={props.liveLink}
+                className="cards-live-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                live link
+              </a>
+            ) : null}
+            {(props.liveLink != null && props.ghLink === null) ||
+            (props.ghLink != null && props.liveLink === null) ? null : (
+              <span>|</span>
+            )}
+            {props.ghLink != null ? (
+              <a
+                href={props.ghLink}
+                className="cards-gh-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github Link
+              </a>
+            ) : null}
           </p>
           {/* <p className="cards-font-size">
           <a href={props.ghLink}>Github Link</a>

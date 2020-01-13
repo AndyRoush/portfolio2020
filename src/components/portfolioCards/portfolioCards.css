@@ -16,7 +16,7 @@
 }
 
 .cards-wrapper:hover {
-  box-shadow: 0px 0px 40px 15px #e2e1e1;
+  box-shadow: 0px 0px 20px 5px #e2e1e1;
   border: 1px solid #89aee1;
 }
 
@@ -24,6 +24,7 @@
   width: 100%;
   height: 120px;
   overflow: hidden;
+  border-bottom: 1px solid rgb(239, 239, 239);
 }
 
 .cards-img {

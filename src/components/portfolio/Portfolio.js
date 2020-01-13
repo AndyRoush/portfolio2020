@@ -2,36 +2,45 @@ import React from "react";
 import PortfolioCards from "../portfolioCards/PortfolioCards";
 import "./Portfolio.css";
 import scdImg from "../../assets/images/scdimg.PNG";
+import cv2Img from "../../assets/images/cv2.PNG";
+import gbImg from "../../assets/images/gbimg.PNG";
+import pfImg from "../../assets/images/pfimg.PNG";
+import rbImg from "../../assets/images/rbimg.PNG";
+import reaImg from "../../assets/images/reaimg.PNG";
+import triviaImg from "../../assets/images/triviaimg.PNG";
 
 const projArray = [
   {
-    img: scdImg ,
+    img: scdImg,
     website: "SCDistributors",
     tech: "React, React Router, Bootstrap.",
     desc:
       "React application utilizing React Router and Bootstrap. Elements of animation and SVG.",
-    liveLink: "http://scdistributors.com/"
+    liveLink: "http://scdistributors.com/",
+    ghLink: null
   },
   {
-    // img: { cv2Img },
+    img: cv2Img,
     website: "Cvmissioncriticalreit2",
     tech:
       "React, Bootstrap, Axios, Google Maps, XML and CSV parsing modules to convert to JSON.",
     desc:
       "Single page React application. Fully data driven converting XML and CSV to JSON for a more organized data interchange. Bootstrap for responsive design, and google maps integration.",
-    liveLink: "http://www.cvmissioncriticalreit2.com/"
+    liveLink: "http://www.cvmissioncriticalreit2.com/",
+    ghLink: null
   },
   {
-    // img: { gbImg },
+    img: gbImg,
     website: "Greenbackerrenewableenergy",
     tech:
       "React, Bootstrap, Axios, Google Maps, XML and CSV parsing modules to convert to JSON.",
     desc:
       "Single page React application. Fully data driven converting XML and CSV to JSON for a more organized data interchange. Bootstrap for responsive design, and google maps integration.",
-    liveLink: "http://greenbackerrenewableenergy.com/"
+    liveLink: "http://greenbackerrenewableenergy.com/",
+    ghLink: null
   },
   {
-    // img: { pfImg },
+    img: pfImg,
     website: "Park Finder",
     tech:
       "HTML, CSS, JavaScript, jQuery, AJAX, Google Maps, National Park API.",
@@ -41,25 +50,27 @@ const projArray = [
     ghLink: "https://github.com/AndyRoush/parkfinder"
   },
   {
-    // img: { rbImg },
+    img: rbImg,
     website: "Req.body",
     tech:
       "HTML, CSS, JavaScript, jQuery, Node, Express, MySQL, Google Charts, Materialize.",
     desc:
       "Code camp project 2. Req.body being a play on words from the express framework. Fitness application with a trainer view, and a client view. Allows the trainer to track client progress. Client to receive workout and nutrition info. I designed and built the entire front end.",
+      liveLink: null,
     ghLink: "https://github.com/AndyRoush/invisible_pastrami"
   },
   {
-    // img: { reaImg },
+    img: reaImg,
     website: "REA Sales Client",
     tech:
       "React, React-CRUD-Table, React-Geocode, React-Router, Google Maps, Redux, Axios, Body-Parser, JSON Web Token, Mongoose, Multer, Bcrypt, Passport, Validator.",
     desc:
       "Code camp project. Full stack, Real-Estate lead generator application. I designed and built the front end.",
+      liveLink: null,
     ghLink: "https://github.com/AndyRoush/rea-sales-client"
   },
   {
-    // img: { reaImg },
+    img: triviaImg,
     website: "Trivia Game",
     tech: "HTML, CSS, JavaScript, jQuery.",
     desc:
