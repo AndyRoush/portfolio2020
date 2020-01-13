@@ -1,6 +1,7 @@
 import React from "react";
 import PortfolioCards from "../portfolioCards/PortfolioCards";
 import "./Portfolio.css";
+import NavButtonHolder from "../navButtonHolder/NavButtonHolder";
 import scdImg from "../../assets/images/scdimg.PNG";
 import cv2Img from "../../assets/images/cv2.PNG";
 import gbImg from "../../assets/images/gbimg.PNG";
@@ -56,7 +57,7 @@ const projArray = [
       "HTML, CSS, JavaScript, jQuery, Node, Express, MySQL, Google Charts, Materialize.",
     desc:
       "Code camp project 2. Req.body being a play on words from the express framework. Fitness application with a trainer view, and a client view. Allows the trainer to track client progress. Client to receive workout and nutrition info. I designed and built the entire front end.",
-      liveLink: null,
+    liveLink: null,
     ghLink: "https://github.com/AndyRoush/invisible_pastrami"
   },
   {
@@ -66,7 +67,7 @@ const projArray = [
       "React, React-CRUD-Table, React-Geocode, React-Router, Google Maps, Redux, Axios, Body-Parser, JSON Web Token, Mongoose, Multer, Bcrypt, Passport, Validator.",
     desc:
       "Code camp project. Full stack, Real-Estate lead generator application. I designed and built the front end.",
-      liveLink: null,
+    liveLink: null,
     ghLink: "https://github.com/AndyRoush/rea-sales-client"
   },
   {
@@ -83,13 +84,16 @@ const projArray = [
 const Portfolio = props => {
   return (
     <>
+      <NavButtonHolder leftButton="bio" rightButton="experience" />
       <div className="portfolio-header">
-        <h3>
-          Welcome to my portfolio! Here is a showcase of some of the projects
-          I've completed over my time at bootcamp, and in the professional
-          world. Of course there are a lot of projects I can't show due to legal
-          reasons. Those are ones with logins and security.
-        </h3>
+        <p className="line-height">
+          Welcome to my portfolio page! Here is a showcase of some of the
+          projects/assignments I've completed over my time at coding bootcamp,
+          and websites I've built in the professional world. Unfortunately there
+          are websites I've built I can't show due to legal reasons. They range
+          from internal to client facing web portals utilizing React and some
+          using Redux for state management.
+        </p>
       </div>
       <div className="portfolio-container">
         {projArray.map(cards => {

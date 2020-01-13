@@ -4,13 +4,13 @@
     height: 100vh;
     display: inline-block;
 } */
-.portfolio-container {
-    margin: 6rem 15% 0 15%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: wrap;
+.portfolio-header {
+  margin: 5rem 20% 0 20%;
 }
 
-.portfolio-header {
-    margin: 6rem 20% 0 20%;
+.portfolio-container {
+  margin: 6rem 15% 0 15%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
 }

@@ -12,7 +12,9 @@
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
-  margin-bottom: 2rem;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .cards-wrapper:hover {
@@ -45,17 +47,17 @@
 }
 
 .cards-content-wrapper {
-    padding: 0 6px;
+  padding: 0 6px;
 }
 
 .cards-live-link {
-    margin-right: 6px;
-    text-decoration: none;
-    color: #89aee1;
+  margin-right: 6px;
+  text-decoration: none;
+  color: #89aee1;
 }
 
 .cards-gh-link {
-    margin-left: 6px;
-    text-decoration: none;
-    color: #89aee1;
+  margin-left: 6px;
+  text-decoration: none;
+  color: #89aee1;
 }

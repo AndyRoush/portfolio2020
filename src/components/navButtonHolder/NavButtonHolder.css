@@ -1,0 +1,12 @@
+.nbh-button-holder {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nbh-button-container {
+    width: 17rem;
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: 1.0rem;
+}

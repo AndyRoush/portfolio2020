@@ -1,21 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Bio.css";
+import NavButtonHolder from "../navButtonHolder/NavButtonHolder";
 
 const Bio = props => {
   return (
     <>
-      <div className="bio-button-holder">
-      <div className="bio-button-container">
-        <Link to="/portfolio">
-          <button className="home-card-button">Portfolio</button>
-        </Link>
-        <Link to="/experience">
-          <button className="home-card-button">Experience</button>
-        </Link>
-        </div>
-      </div>
-      <div className="bio-container">
+      <NavButtonHolder leftButton="portfolio" rightButton="experience" />
+      <div className="bio-container line-height">
         <h3>About Me</h3>
         <p>
           Thanks for visiting my website! My name is Andy Roush, and I'm a front
@@ -49,11 +41,13 @@ const Bio = props => {
         </p>
         <h3>Hobbies/Interests</h3>
         <p>Coding (obviously =P)</p>
-        <p>Gaming!</p>
-        <p>Video Editing</p>
-        <p>Audiophile</p>
-        <p></p>
-        <p></p>
+        <p>Gaming</p>
+        <p>Harry Potter</p>
+        <p>Retro junk (mostly 80's and 90's)</p>
+        <p>Having fun with my kids!</p>
+        <p>Cars</p>
+        <p>Techmology (no that's not a typo, I just love Ali G skits =D)</p>
+        <p>Mugs</p>
       </div>
     </>
   );

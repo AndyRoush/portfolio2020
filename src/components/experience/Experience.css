@@ -1,6 +1,61 @@
-.experience-container {
+/* .experience-container {
     width: 33.4%;
     background: #e4a834;
     height: 100vh;
     display: inline-block;
+} */
+.experience-container {
+  margin: 5rem 15% 0 15%;
+}
+
+.exp-center {
+    text-align: center;
+}
+
+.exp-content-main-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+  margin-top: 4rem;
+}
+
+.exp-wrapper {
+  height: 500px;
+  border: 1px solid #cacaca;
+  width: 420px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.exp-header {
+  padding-left: 10px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #89aee1;
+}
+
+.exp-prof-content {
+}
+
+.exp-prof-content ul li {
+  padding-bottom: 10px;
+}
+
+.exp-fam-content {
+}
+
+.exp-fam-content ul li {
+  padding-bottom: 10px;
+}
+
+.exp-with-content {
+}
+
+.exp-with-content ul li {
+  padding-bottom: 10px;
 }

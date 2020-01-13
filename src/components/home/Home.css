@@ -63,9 +63,25 @@
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
+    width: 122px;
 }
 
 .home-card-button:hover {
+    background: #89aee1;
+    cursor: pointer;
+}
+.home-card-button-bottom {
+    background: transparent;
+    padding: 10px 30px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.home-card-button-bottom:hover {
     background: #89aee1;
     cursor: pointer;
 }
