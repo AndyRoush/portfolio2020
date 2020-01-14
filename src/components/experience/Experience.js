@@ -9,7 +9,8 @@ const Experience = props => {
       <div className="experience-container">
         <p className="exp-center line-height">
           This page is dedicated to the technologies I currently work with. I'm
-          in the MERN stack space, and I love it.{" "}
+          in the MERN stack space, and I love it but am always excited and eager
+          to learn new technologies. My hope is to expand this list every year!
         </p>
         <div className="exp-content-main-wrapper">
           <div className="exp-wrapper">
@@ -57,6 +58,7 @@ const Experience = props => {
                 <li>Fetching data.</li>
                 <li>Build tools & continuing integration.</li>
                 <li>Versioning and deployment.</li>
+                <li>Responsive Design.</li>
               </ul>
             </div>
           </div>

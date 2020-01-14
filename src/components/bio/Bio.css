@@ -21,3 +21,22 @@
     display: flex;
     margin-left: 2.3rem;
 }
+
+.bio-container h3 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #89aee1;
+}
+
+@media only screen and (max-width: 1200px) {
+    .bio-container {
+        margin: 5rem 15% 0 15%;
+    }
+}
+
+@media only screen and (max-width: 542px) {
+    .bio-container {
+        margin: 3rem 7% 0 7%;
+    }
+}

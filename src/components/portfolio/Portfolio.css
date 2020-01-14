@@ -11,6 +11,25 @@
 .portfolio-container {
   margin: 6rem 15% 0 15%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-flow: wrap;
+}
+
+@media only screen and (max-width: 1200px) {
+  .portfolio-container {
+    margin: 5rem 15% 0 15%;
+  }
+  .portfolio-header {
+    margin: 5rem 15% 0 15%;
+  }
+}
+
+@media only screen and (max-width: 542px) {
+  .portfolio-container {
+    margin: 4rem 7% 0 7%;
+  }
+  .portfolio-header {
+    margin: 3rem 7% 0 7%;
+  }
+ 
 }

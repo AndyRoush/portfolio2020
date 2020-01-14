@@ -1,8 +1,8 @@
 .home-container {
-    height: 100vh;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 
 .home-container h2 {
@@ -13,9 +13,10 @@
 }
 
 .home-card-container {
-  width: 68rem;
+  width: 60%;
   display: flex;
   justify-content: space-evenly;
+  flex-flow: wrap;
 }
 
 .home-card {
@@ -33,60 +34,78 @@
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-    display: flex;
-    justify-content: space-around;
-    flex-flow: column;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
 }
 
 .home-card:hover {
-  box-shadow: 0px 0px 40px 15px #e2e1e1;
-  border: 1px solid #89aee1
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border: 1px solid #89aee1;
 }
 
 .home-card-img {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 .home-card-button {
-    background: transparent;
-    padding: 10px 30px;
-    border: 1px solid rgb(200, 200, 200);
-    border-radius: 2px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
-    width: 122px;
+  background: transparent;
+  padding: 10px 30px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  width: 122px;
 }
 
 .home-card-button:hover {
-    background: #89aee1;
-    cursor: pointer;
+  background: #89aee1;
+  cursor: pointer;
 }
 .home-card-button-bottom {
-    background: transparent;
-    padding: 10px 30px;
-    border: 1px solid rgb(200, 200, 200);
-    border-radius: 2px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
+  background: transparent;
+  padding: 10px 30px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
 }
 
 .home-card-button-bottom:hover {
-    background: #89aee1;
-    cursor: pointer;
+  background: #89aee1;
+  cursor: pointer;
 }
 
 .home-card-span {
   padding: 0 25px;
   text-align: center;
+}
+
+
+@media only screen and (max-width: 520px) {
+  .home-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .home-card {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    width: 85%;
+  }
 }
