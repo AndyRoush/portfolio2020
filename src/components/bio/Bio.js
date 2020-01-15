@@ -10,8 +10,7 @@ const Bio = props => {
       <div className="bio-container line-height">
         <h3>About Me</h3>
         <p>
-          Thanks for visiting my website! My name is Andy Roush, and I'm a front
-          end software developer.
+          Thanks for visiting my website! Here is a little background on me.
         </p>
         <p>
           I got my start in coding back in 2016 shortly after my first daughter
@@ -39,15 +38,16 @@ const Bio = props => {
         <p>
           6 months later I landed my first coding job as a JavaScript developer!
         </p>
+        <br />
         <h3>Hobbies/Interests</h3>
-        <p>Coding (obviously =P)</p>
-        <p>Gaming</p>
-        <p>Harry Potter</p>
-        <p>Retro junk (mostly 80's and 90's)</p>
-        <p>Having fun with my kids!</p>
+        <p>Coding (obviously =P).</p>
+        <p>Gaming - PC and retro to be specific.</p>
+        <p>Retro junk (mostly 80's and 90's stuff).</p>
+        <p>Harry Potter - House Hufflepuff - Where hard work, dedication, patience, and loyalty are valued :)</p>
+        <p>Spending time with my family!</p>
         <p>Cars</p>
-        <p>Techmology (no that's not a typo, I just love Ali G skits =D)</p>
-        <p>Mugs</p>
+        <p>Tech</p>
+        <p>Mugs... yes I love mugs</p>
       </div>
     </>
   );

@@ -56,10 +56,18 @@
   color: #89aee1;
 }
 
+.cards-live-link:hover {
+  color: #7cf4d3
+}
+
 .cards-gh-link {
   margin-left: 6px;
   text-decoration: none;
   color: #89aee1;
+}
+
+.cards-gh-link:hover {
+  color: #7cf4d3
 }
 
 @media only screen and (max-width: 520px) {

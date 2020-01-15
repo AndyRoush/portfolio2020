@@ -26,10 +26,16 @@
 }
 
 .nav-home-image {
-    width: 35px;
-    padding-top: 5px;
+  width: 35px;
+  padding-top: 5px;
+  padding-right: 18px;
+}
+
+.nav-social-image {
+  width: 35px;
+  padding-top: 5px;
 }
 
 .nav-icon-padding {
-    padding-right: 8px
+  padding-right: 8px;
 }

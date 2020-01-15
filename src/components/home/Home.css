@@ -23,7 +23,7 @@
   border: 1px solid rgb(239, 239, 239);
   border-radius: 5px;
   width: 305px;
-  height: 475px;
+  height: 400px;
   background: rgb(255, 255, 255);
   transition: 0.5s;
   -webkit-transition: 0.3s;
@@ -47,7 +47,7 @@
 }
 
 .home-card-img {
-  width: 130px;
+  /* width: 130px; */
   height: 130px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -70,6 +70,7 @@
 
 .home-card-button:hover {
   background: #89aee1;
+  border: 1px solid #89aee1;
   cursor: pointer;
 }
 .home-card-button-bottom {

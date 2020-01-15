@@ -23,14 +23,14 @@ const Nav = props => {
               rel="noopener noreferrer"
               className="nav-icon-padding"
             >
-              <img src={liIcon} alt="linkedin" className="nav-home-image" />
+              <img src={liIcon} alt="linkedin" className="nav-social-image" />
             </a>
             <a
               href="https://github.com/AndyRoush"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={ghIcon} alt="github" className="nav-home-image" />
+              <img src={ghIcon} alt="github" className="nav-social-image" />
             </a>
           </div>
         </div>

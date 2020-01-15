@@ -1,6 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Button from "../button/Button";
+import mernStack from "../../assets/images/mern.png"
+import codeBracket from "../../assets/images/codeBracket.png"
+// import n64 from "../../assets/images/n64.png"
+// import n64 from "../../assets/images/n64buttons.svg"
+// import n64 from "../../assets/images/startButton.svg"
+import snes from "../../assets/images/snesButtons.png"
 
 import "./Home.css";
 
@@ -23,7 +28,7 @@ const Home = () => {
             <img
               className="home-card-img"
               alt="headshot"
-              src="http://www.minneapolisheadshots.com/gallery/main/environmentalheadshot.jpg"
+              src={snes}
             />
             <span className="home-card-span">
               Check out my story, hobbies and interests!
@@ -37,9 +42,9 @@ const Home = () => {
             <img
               className="home-card-img"
               alt="headshot"
-              src="http://www.minneapolisheadshots.com/gallery/main/environmentalheadshot.jpg"
+              src={codeBracket}
             />
-            <span className="home-card-span">See what I've done.</span>
+            <span className="home-card-span">See my work.</span>
             <Link to="/portfolio">
               <button className="home-card-button-bottom">Show Me</button>
             </Link>
@@ -49,7 +54,7 @@ const Home = () => {
             <img
               className="home-card-img"
               alt="headshot"
-              src="http://www.minneapolisheadshots.com/gallery/main/environmentalheadshot.jpg"
+              src={mernStack}
             />
             <span className="home-card-span">What is my tech stack?</span>
             <Link to="/experience">
