@@ -56,7 +56,7 @@ const Home = () => {
               alt="headshot"
               src={mernStack}
             />
-            <span className="home-card-span">What is my tech stack?</span>
+            <span className="home-card-span">What is my primary tech stack?</span>
             <Link to="/experience">
               <button className="home-card-button-bottom">I want to know</button>
             </Link>
