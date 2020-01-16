@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio2020/static/css/main.0566b125.chunk.css",
+    "main.js": "/portfolio2020/static/js/main.f9634944.chunk.js",
+    "main.js.map": "/portfolio2020/static/js/main.f9634944.chunk.js.map",
+    "runtime-main.js": "/portfolio2020/static/js/runtime-main.ff1ec1be.js",
+    "runtime-main.js.map": "/portfolio2020/static/js/runtime-main.ff1ec1be.js.map",
+    "static/js/2.725d387f.chunk.js": "/portfolio2020/static/js/2.725d387f.chunk.js",
+    "static/js/2.725d387f.chunk.js.map": "/portfolio2020/static/js/2.725d387f.chunk.js.map",
+    "index.html": "/portfolio2020/index.html",
+    "precache-manifest.434880c6185d0f873286f30dc434f718.js": "/portfolio2020/precache-manifest.434880c6185d0f873286f30dc434f718.js",
+    "service-worker.js": "/portfolio2020/service-worker.js",
+    "static/css/main.0566b125.chunk.css.map": "/portfolio2020/static/css/main.0566b125.chunk.css.map",
+    "static/js/2.725d387f.chunk.js.LICENSE": "/portfolio2020/static/js/2.725d387f.chunk.js.LICENSE",
+    "static/media/codeBracket.png": "/portfolio2020/static/media/codeBracket.55b2c45c.png",
+    "static/media/cv2.PNG": "/portfolio2020/static/media/cv2.4d86d6b9.PNG",
+    "static/media/gbimg.PNG": "/portfolio2020/static/media/gbimg.197a9a6a.PNG",
+    "static/media/mern.png": "/portfolio2020/static/media/mern.073ea8b8.png",
+    "static/media/pfimg.PNG": "/portfolio2020/static/media/pfimg.a74dfc8c.PNG",
+    "static/media/rbimg.PNG": "/portfolio2020/static/media/rbimg.311b5d23.PNG",
+    "static/media/reaimg.PNG": "/portfolio2020/static/media/reaimg.7bfec5dd.PNG",
+    "static/media/scdimg.PNG": "/portfolio2020/static/media/scdimg.920321c0.PNG",
+    "static/media/snesButtons.png": "/portfolio2020/static/media/snesButtons.8d3f4f99.png",
+    "static/media/triviaimg.PNG": "/portfolio2020/static/media/triviaimg.71fbed80.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff1ec1be.js",
+    "static/js/2.725d387f.chunk.js",
+    "static/css/main.0566b125.chunk.css",
+    "static/js/main.f9634944.chunk.js"
+  ]
+}
