@@ -14,7 +14,7 @@
 }
 
 .exp-wrapper {
-  height: 450px;
+  height: 505px;
   border: 1px solid #e6e6e6;
   width: 335px;
   margin-bottom: 20px;
@@ -74,7 +74,7 @@
     margin: 3rem 7% 0 7%;
   }
   .exp-wrapper {
-    height: 406px;
+    height: 585px;
     margin-bottom: 25px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   }
@@ -84,4 +84,7 @@
   .exp-header-text {
     margin: 3rem 7% 0 7%;
   }
+  .exp-with-content {
+    padding-right: 22px;
+}
 }

@@ -84,15 +84,14 @@ const projArray = [
 const Portfolio = props => {
   return (
     <>
-      <NavButtonHolder leftButton="bio" rightButton="experience" />
+      <NavButtonHolder leftButton="Bio" rightButton="Experience" />
       <div className="portfolio-header">
         <p className="line-height">
           Welcome to my portfolio page! Here is a showcase of some of the
-          projects/assignments I've completed over my time at coding bootcamp,
-          and websites I've built in the professional world. Unfortunately there
-          are websites I've built I can't show due to legal reasons. They range
-          from internal to client facing web portals utilizing React and some
-          using Redux for state management.
+          websites I've built in my professional career, as well as
+          projects/assignments I've completed over my time at coding bootcamp.
+          Unfortunately there are a number of websites I've built I can't show due to legal
+          or other reasons. They're mostly either user portals that require login credentials and authenticaion that I no longer have access to, or company intranet applications.
         </p>
       </div>
       <div className="portfolio-container">

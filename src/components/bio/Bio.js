@@ -1,23 +1,19 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Bio.css";
 import NavButtonHolder from "../navButtonHolder/NavButtonHolder";
 
 const Bio = props => {
   return (
     <>
-      <NavButtonHolder leftButton="portfolio" rightButton="experience" />
+      <NavButtonHolder leftButton="Portfolio" rightButton="Experience" />
       <div className="bio-container line-height">
         <h3>About Me</h3>
         <p>
-          Thanks for visiting my website! Here is a little background on me.
-        </p>
-        <p>
-          I got my start in coding back in 2016 shortly after my first daughter
-          was born. I started with free online courses and began to build simple
-          static websites for fun. I realized I needed more than just free
-          online courses, so I enrolled in a 6 month coding boot camp at the
-          University of California, Irvine.
+          I got my start back in 2016 shortly after my first daughter was born.
+          I started with free online courses and began to build simple static
+          websites for fun. I realized I needed more than just free online
+          courses, so I enrolled in a 6 month coding boot camp at the University
+          of California, Irvine.
         </p>
         <p>
           Going through an intensive 6 month boot camp, working a full and part
@@ -40,14 +36,18 @@ const Bio = props => {
         </p>
         <br />
         <h3>Hobbies/Interests</h3>
-        <p>Coding (obviously =P).</p>
-        <p>Gaming - PC and retro to be specific.</p>
-        <p>Retro junk (mostly 80's and 90's stuff).</p>
-        <p>Harry Potter - House Hufflepuff - Where hard work, dedication, patience, and loyalty are valued :)</p>
-        <p>Spending time with my family!</p>
-        <p>Cars</p>
-        <p>Tech</p>
-        <p>Mugs... yes I love mugs</p>
+        <p>Coding, of course.</p>
+        <p>Gaming - PC and retro mostly.</p>
+        <p>Retro junk - 80's and 90's stuff.</p>
+        <p>
+          Movies - Anything documentary, sci-fi, fantasy, or comedy and the
+          occasional chick flick.
+        </p>
+        <p>Spending quality time with my family!</p>
+        <p>
+          Harry Potter.
+        </p>
+        <p>Cars.</p>
       </div>
     </>
   );

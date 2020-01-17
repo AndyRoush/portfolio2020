@@ -26,6 +26,10 @@ body {
   padding-bottom: 7rem;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .margins {
   margin: 0 25% 5% 25%;
 }
