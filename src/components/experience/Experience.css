@@ -1,5 +1,6 @@
 .experience-container {
-  margin: 5rem 20% 0 20%;
+  display: flex;
+  justify-content: center;
 }
 
 .exp-header-text {
@@ -11,6 +12,7 @@
   justify-content: space-around;
   flex-flow: wrap;
   margin-top: 4rem;
+  width: 67rem;
 }
 
 .exp-wrapper {
@@ -42,22 +44,19 @@
   color: #89aee1;
 }
 
-.exp-prof-content {
-}
+.exp-prof-content {}
 
 .exp-prof-content ul li {
   padding-bottom: 10px;
 }
 
-.exp-fam-content {
-}
+.exp-fam-content {}
 
 .exp-fam-content ul li {
   padding-bottom: 10px;
 }
 
-.exp-with-content {
-}
+.exp-with-content {}
 
 .exp-with-content ul li {
   padding-bottom: 10px;
@@ -73,18 +72,22 @@
   .experience-container {
     margin: 3rem 7% 0 7%;
   }
+
   .exp-wrapper {
     height: 585px;
     margin-bottom: 25px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   }
+
   .exp-center {
     text-align: left;
   }
+
   .exp-header-text {
     margin: 3rem 7% 0 7%;
   }
+
   .exp-with-content {
     padding-right: 22px;
-}
+  }
 }

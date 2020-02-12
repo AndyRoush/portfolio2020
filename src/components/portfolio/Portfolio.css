@@ -9,10 +9,16 @@
 }
 
 .portfolio-container {
-  margin: 6rem 15% 0 15%;
+  margin-top: 3rem;
+  width: 63rem;
   display: flex;
   justify-content: center;
   flex-flow: wrap;
+}
+
+.portfolio-container-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 1200px) {

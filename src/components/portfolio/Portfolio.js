@@ -90,23 +90,27 @@ const Portfolio = props => {
           Welcome to my portfolio page! Here is a showcase of some of the
           websites I've built in my professional career, as well as
           projects/assignments I've completed over my time at coding bootcamp.
-          Unfortunately there are a number of websites I've built I can't show due to legal
-          or other reasons. They're mostly either user portals that require login credentials and authenticaion that I no longer have access to, or company intranet applications.
+          Unfortunately there are a number of websites I've built I can't show
+          due to legal or other reasons. They're mostly either user portals that
+          require login credentials and authenticaion that I no longer have
+          access to, or company intranet applications.
         </p>
       </div>
-      <div className="portfolio-container">
-        {projArray.map(cards => {
-          return (
-            <PortfolioCards
-              img={cards.img}
-              website={cards.website}
-              tech={cards.tech}
-              desc={cards.desc}
-              liveLink={cards.liveLink}
-              ghLink={cards.ghLink}
-            />
-          );
-        })}
+      <div className="portfolio-container-wrapper">
+        <div className="portfolio-container">
+          {projArray.map(cards => {
+            return (
+              <PortfolioCards
+                img={cards.img}
+                website={cards.website}
+                tech={cards.tech}
+                desc={cards.desc}
+                liveLink={cards.liveLink}
+                ghLink={cards.ghLink}
+              />
+            );
+          })}
+        </div>
       </div>
     </>
   );

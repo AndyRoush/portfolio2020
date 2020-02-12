@@ -15,7 +15,7 @@
 }
 
 .home-card-container {
-  width: 60%;
+  width: 63rem;
   display: flex;
   justify-content: space-evenly;
   flex-flow: wrap;
