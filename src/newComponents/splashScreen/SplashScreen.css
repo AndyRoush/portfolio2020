@@ -1,0 +1,31 @@
+.splash_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.splash_main_wrapper {
+  width: 50rem;
+  margin-top: 3rem;
+}
+
+.splash_intro_text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.splash_intro_text p {
+  font-size: 2rem;
+}
+
+.splash_link_grid_container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+.splash_sm_wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
